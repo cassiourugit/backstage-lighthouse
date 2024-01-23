@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 1-Livelo
+  description: |
+    [The Petstore](http://petstore.example.com) is an example API used to show features of the OpenAPI spec.
+    - First item
+    - Second item
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+  annotations:
+    lighthouse.com/website-url: https://www.livelo.com.br
+spec:
+  type: website
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
