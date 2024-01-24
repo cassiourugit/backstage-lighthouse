@@ -20,11 +20,11 @@ organization:
 
 lighthouse:
   baseUrl: http://localhost:4008
-  # schedule:
-  #   frequency:
-  #     hours: 1 # Default: 1 day
-  #   timeout:
-  #     minutes: 30 # Default: 10 minutes
+  schedule:
+    frequency:
+      days: 1 # Default: 1 day
+    timeout:
+      minutes: 30 # Default: 10 minutes
         
 backend:
   baseUrl: http://localhost:7007
